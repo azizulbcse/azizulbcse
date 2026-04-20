@@ -1,49 +1,50 @@
 # Hi there, I'm Md. Azizul Haque Sohel 👋
 
-### 🚀 Multi-Platform Software Engineer & Database Specialist
-I specialize in building robust **Desktop Enterprise Solutions** and **Dynamic Web Systems**. My expertise lies in designing scalable architectures with **C# .NET**, **Oracle**, and **PHP**.
+### 🚀 Senior Software Engineer | Desktop & Enterprise Web Expert
+Specializing in **Mission-Critical Systems**. I have a proven track record of building robust, data-driven applications for Healthcare, Finance, and Real Estate sectors.
 
 ---
 
-### 💻 Core Portfolio & Expertise
-
-**🖥️ Desktop-Based Enterprise Systems (C# .NET | Oracle | SQL Server)**
-- **Hospital Management System:** Full clinical and administrative workflow.
-- **Electric Billing System:** Automated utility billing and usage tracking.
-- **Pharmacy & Canteen Management:** Specialized inventory and sales solutions.
-- **Point of Sale (POS):** High-performance retail software.
-
-**🌐 Web-Based Enterprise Applications (Raw PHP | MySQL)**
-- **Inventory & POS Software:** Complete stock and sales management systems.
-- **Multipurpose Somiti Software:** Specialized financial and member management.
-- **Real Estate Software:** Property tracking and installment management systems.
-
-**🌍 Modern Web Presence (Laravel | HTML | CSS | JS)**
-- Development of professional **Static Websites** and landing pages using **Laravel**.
+### 🌐 Live Web Projects (Enterprise Solutions)
+I have developed and deployed these full-scale systems using **Raw PHP & MySQL**:
+- 🏠 **Real Estate Management System** | [[Live Demo Available]](http://hchousingltd.com/hchl)]
+- 💰 **Multipurpose Somiti Software** | [[Live Demo Available](https://nhcsbd.org/)]
+- 🛒 **Inventory & POS Software** | Enterprise-grade stock management.
 
 ---
 
-### 🛠️ Technical Toolkit
-
-- **Languages:** C#, PHP, JavaScript, C, C++
-- **Frameworks:** .NET Core/Framework, Laravel
-- **Databases:** Oracle (Expert), MS SQL Server, MySQL
-- **Frontend:** HTML5, CSS3, JavaScript
+### 🖥️ Desktop-Based Enterprise Systems (C# .NET | Oracle | SQL Server)
+Specialized in building high-performance, secure desktop applications:
+- 🏥 **Hospital Management System:** Full clinical and administrative workflow.
+- ⚡ **Electric Billing System:** Automated utility billing and usage tracking.
+- 💊 **Pharmacy & Canteen Management:** Real-time inventory and sales tracking.
 
 ---
 
-### 📊 GitHub Activity & Stats
+### 🛠️ Technical Mastery
+
+**Languages & Frameworks:**
+- 💻 **Backend:** C# .NET, Raw PHP (Expert), Laravel (Static Web), Java, C++
+- 🎨 **Frontend:** HTML5, CSS3, JavaScript
+
+**Database Architecture:**
+- 🗄️ **Databases:** Oracle (Expert), MS SQL Server, MySQL
+- ⚙️ **Focus:** System Architecture, Database Optimization, Enterprise Security
+
+---
+
+### 📊 GitHub Profile Stats
 <p align="left">
-  <img src="https://vercel.app" height="170" alt="Stats" />
-  <img src="https://vercel.app" height="170" alt="Languages" />
+  <img src="https://vercel.app" height="165" alt="Stats" />
+  <img src="https://vercel.app" height="165" alt="Languages" />
 </p>
 
 ---
 
-### 🤝 Professional Contact
+### 🤝 Professional Connection
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
-- 💼 **LinkedIn:** []
-- 🏢 **Currently Serving:** National Heart Foundation Hospital & Research Institute
+- 💼 **LinkedIn:** [আপনার লিঙ্কডইন লিংক এখানে দিন]
+- 🏢 **Current Organization:** National Heart Foundation Hospital & Research Institute
 
 ---
-*"Engineering robust solutions for complex business needs with clean and maintainable code."*
+*"Dedicated to engineering high-quality, scalable solutions for complex business challenges."*
