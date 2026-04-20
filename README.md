@@ -1,31 +1,32 @@
 # Hi there, I'm Md. Azizul Haque Sohel 👋
 
-### 🚀 Software Engineer & Desktop Application Developer
-I specialize in building robust **Desktop Applications** and **Web Solutions**. With a strong foundation in both SQL and NoSQL databases, I focus on creating scalable and user-centric software.
+### 🚀 Full-Stack Software Engineer 
+Specializing in **Desktop Applications** & **Modern Web Development**. I build scalable, high-performance systems using **C# .NET** and **Laravel**.
 
 ---
 
-### 🛠️ My Tech Stack
+### 🛠️ Professional Tech Stack
 
-**Software & Desktop Development:**
-- 💻 **Language:** C# .NET
-- 🗄️ **Databases:** Oracle, SQL Server, MySQL
+**Web Development (Full-Stack):**
+- 🏗️ **Framework:** Laravel (Expert in Static & Dynamic Websites)
+- 🌐 **Backend/Frontend:** PHP, HTML5, CSS3, JavaScript
+- ⚡ **API:** RESTful API Development
 
-**Web Development:**
-- 🌐 **Backend:** PHP
-- 🎨 **Frontend:** HTML5, CSS3, JavaScript
-
----
-
-### 💼 What I Do
-- 🖥️ Developing secure and efficient desktop-based enterprise software.
-- 🔗 Integrating complex database systems (Oracle/SQL Server) with applications.
-- 🌐 Building responsive web interfaces and dynamic backend systems.
-- 🛠️ Optimizing database queries and system performance.
+**Desktop & Software Development:**
+- 💻 **Language:** C# .NET Framework / .NET Core
+- 🗄️ **Databases:** Oracle, Microsoft SQL Server, MySQL
 
 ---
 
-### 📊 GitHub Activity & Stats
+### 💼 Professional Expertise
+- 🌐 **Web Solutions:** Developing robust dynamic websites and web applications using **Laravel**.
+- 🖥️ **Desktop Software:** Building secure and efficient enterprise-level desktop software with **C#**.
+- 📊 **Database Architecture:** Expert in designing complex database schemas and optimizing queries in **Oracle** and **SQL Server**.
+- 🏥 **Domain Experience:** Experience in developing systems for healthcare and research institutes.
+
+---
+
+### 📊 My GitHub Stats
 <p align="left">
   <img src="https://vercel.app" height="150" alt="Stats" />
   <img src="https://vercel.app" height="150" alt="Languages" />
@@ -33,10 +34,9 @@ I specialize in building robust **Desktop Applications** and **Web Solutions**. 
 
 ---
 
-### 📫 Connect with Me
-- **LinkedIn:** [Your Profile Link Here]
-- **Email:** [azizulbcse@gmail.com]
-- **Organization:** Current: *National Heart Foundation Hospital & Research Institute* (as seen in your profile)
+### 🤝 Let's Connect
+- 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
+- 💼 **LinkedIn:** [আপনার লিঙ্কডইন প্রোফাইল লিংক এখানে দিন]
 
 ---
-"Striving to write clean, maintainable, and efficient code."
+*"Passionate about solving complex problems through clean and efficient code."*
