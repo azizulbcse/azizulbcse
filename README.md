@@ -35,7 +35,7 @@ I specialize in building robust **Desktop Applications** and **Web Solutions**. 
 
 ### 📫 Connect with Me
 - **LinkedIn:** [Your Profile Link Here]
-- **Email:** [Your Email Here]
+- **Email:** [azizulbcse@gmail.com]
 - **Organization:** Current: *National Heart Foundation Hospital & Research Institute* (as seen in your profile)
 
 ---
