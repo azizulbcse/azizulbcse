@@ -1,42 +1,49 @@
 # Hi there, I'm Md. Azizul Haque Sohel 👋
 
-### 🚀 Full-Stack Software Engineer 
-Specializing in **Desktop Applications** & **Modern Web Development**. I build scalable, high-performance systems using **C# .NET** and **Laravel**.
+### 🚀 Multi-Platform Software Engineer & Database Specialist
+I specialize in building robust **Desktop Enterprise Solutions** and **Dynamic Web Systems**. My expertise lies in designing scalable architectures with **C# .NET**, **Oracle**, and **PHP**.
 
 ---
 
-### 🛠️ Professional Tech Stack
+### 💻 Core Portfolio & Expertise
 
-**Web Development (Full-Stack):**
-- 🏗️ **Framework:** Laravel (Expert in Static & Dynamic Websites)
-- 🌐 **Backend/Frontend:** PHP, HTML5, CSS3, JavaScript
-- ⚡ **API:** RESTful API Development
+**🖥️ Desktop-Based Enterprise Systems (C# .NET | Oracle | SQL Server)**
+- **Hospital Management System:** Full clinical and administrative workflow.
+- **Electric Billing System:** Automated utility billing and usage tracking.
+- **Pharmacy & Canteen Management:** Specialized inventory and sales solutions.
+- **Point of Sale (POS):** High-performance retail software.
 
-**Desktop & Software Development:**
-- 💻 **Language:** C# .NET Framework / .NET Core
-- 🗄️ **Databases:** Oracle, Microsoft SQL Server, MySQL
+**🌐 Web-Based Enterprise Applications (Raw PHP | MySQL)**
+- **Inventory & POS Software:** Complete stock and sales management systems.
+- **Multipurpose Somiti Software:** Specialized financial and member management.
+- **Real Estate Software:** Property tracking and installment management systems.
 
----
-
-### 💼 Professional Expertise
-- 🌐 **Web Solutions:** Developing robust dynamic websites and web applications using **Laravel**.
-- 🖥️ **Desktop Software:** Building secure and efficient enterprise-level desktop software with **C#**.
-- 📊 **Database Architecture:** Expert in designing complex database schemas and optimizing queries in **Oracle** and **SQL Server**.
-- 🏥 **Domain Experience:** Experience in developing systems for healthcare and research institutes.
+**🌍 Modern Web Presence (Laravel | HTML | CSS | JS)**
+- Development of professional **Static Websites** and landing pages using **Laravel**.
 
 ---
 
-### 📊 My GitHub Stats
+### 🛠️ Technical Toolkit
+
+- **Languages:** C#, PHP, JavaScript, C, C++
+- **Frameworks:** .NET Core/Framework, Laravel
+- **Databases:** Oracle (Expert), MS SQL Server, MySQL
+- **Frontend:** HTML5, CSS3, JavaScript
+
+---
+
+### 📊 GitHub Activity & Stats
 <p align="left">
-  <img src="https://vercel.app" height="150" alt="Stats" />
-  <img src="https://vercel.app" height="150" alt="Languages" />
+  <img src="https://vercel.app" height="170" alt="Stats" />
+  <img src="https://vercel.app" height="170" alt="Languages" />
 </p>
 
 ---
 
-### 🤝 Let's Connect
+### 🤝 Professional Contact
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
-- 💼 **LinkedIn:** [আপনার লিঙ্কডইন প্রোফাইল লিংক এখানে দিন]
+- 💼 **LinkedIn:** []
+- 🏢 **Currently Serving:** National Heart Foundation Hospital & Research Institute
 
 ---
-*"Passionate about solving complex problems through clean and efficient code."*
+*"Engineering robust solutions for complex business needs with clean and maintainable code."*
