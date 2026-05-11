@@ -1,6 +1,6 @@
 # Hi there, I'm Md. Azizul Haque Sohel 👋
 
-### 🚀 Senior Software Engineer | Desktop & Enterprise Web Expert
+### 🚀 Software Engineer | Desktop & Enterprise Web Expert
 Specializing in **Mission-Critical Systems**. I have a proven track record of building robust, data-driven applications for Healthcare, Finance, Industrial Manufacturing, and Real Estate sectors.
 
 ---
