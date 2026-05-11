@@ -1,14 +1,15 @@
 # Hi there, I'm Md. Azizul Haque Sohel 👋
 
 ### 🚀 Senior Software Engineer | Desktop & Enterprise Web Expert
-Specializing in **Mission-Critical Systems**. I have a proven track record of building robust, data-driven applications for Healthcare, Finance, and Real Estate sectors.
+Specializing in **Mission-Critical Systems**. I have a proven track record of building robust, data-driven applications for Healthcare, Finance, Industrial Manufacturing, and Real Estate sectors.
 
 ---
 
-### 🌐 Live Web Projects (Enterprise Solutions)
-I have developed and deployed these full-scale systems using **Raw PHP & MySQL**:
-- 🏠 **Real Estate Management System** | [[Live Demo Available]](http://hchousingltd.com/hchl)]
-- 💰 **Multipurpose Somiti Software** | [[Live Demo Available](https://nhcsbd.org/)]
+### 🌐 Live Web Projects & ERP Systems (Enterprise Solutions)
+I have developed and deployed these full-scale enterprise systems:
+- 🏭 **M/s. Naogaon Accessories ERP** | [Live System](https://na.matrik.com.bd/) *(Production ERP for corporate business operations management)*
+- 🏠 **Real Estate Management System** | [Live Demo Available](http://hchousingltd.com)
+- 💰 **Multipurpose Somiti Software** | [Live Demo Available](https://nhcsbd.org)
 - 🛒 **Inventory & POS Software** | Enterprise-grade stock management.
 
 ---
@@ -24,7 +25,7 @@ Specialized in building high-performance, secure desktop applications:
 ### 🛠️ Technical Mastery
 
 **Languages & Frameworks:**
-- 💻 **Backend:** C# .NET, Raw PHP (Expert), Laravel (Static Web), Java, C++
+- 💻 **Backend:** C# .NET, Raw PHP (Expert), Laravel, Java, C++
 - 🎨 **Frontend:** HTML5, CSS3, JavaScript
 
 **Database Architecture:**
@@ -35,15 +36,15 @@ Specialized in building high-performance, secure desktop applications:
 
 ### 📊 GitHub Profile Stats
 <p align="left">
-  <img src="https://vercel.app" height="165" alt="Stats" />
-  <img src="https://vercel.app" height="165" alt="Languages" />
+  <img src="vercel.app" height="165" alt="Stats" />
+  <img src="vercel.app" height="165" alt="Languages" />
 </p>
 
 ---
 
 ### 🤝 Professional Connection
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
-- 💼 **LinkedIn:** [আপনার লিঙ্কডইন লিংক এখানে দিন]
+- 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://linkedin.com)
 - 🏢 **Current Organization:** National Heart Foundation Hospital & Research Institute
 
 ---
