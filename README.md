@@ -17,6 +17,7 @@ Specialized in building high-performance, secure, and data-heavy desktop applica
 
 ### 🌐 Live Web Projects & ERP Systems (Enterprise Solutions)
 I have developed and deployed these full-scale enterprise systems:
+- 🏥 **BACTA (Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)** | [Live System](https://bactabd.org) *(A national medical registry and multi-tier ERP portal built with Laravel 11 features: Zero-Row Suppression Registry Matrix, asynchronous AJAX fetch gateway, real-time live summation calculator for multi-procedure clinical data like ASD/VSD/MVR/AVR, secure anti-scraping academic minutes archive, and a 2-layer nested responsive multi-tenant membership directory).*
 - 🛒 **Web-Based Inventory & Stock Management System** | *(A fully online, cloud-ready web application built using PHP & MySQL for real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics).*
 - 🏗️ **Prolific Builders (Pvt.) Ltd.** | [Live System](https://prolificbd.org) *(Official corporate web portal for a premier construction management, engineering design, and strategic supply management firm in Bangladesh).*
 - 🏢 **Glory IT Solutions** | [Live System](https://gloryitsolutions.com) *(Official web portal for a global enterprise IT solution, DevOps, and cloud infrastructure consulting firm operating across Bangladesh & USA).*
