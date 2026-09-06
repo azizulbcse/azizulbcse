@@ -1,59 +1,95 @@
-# Hi there, I'm Md. Azizul Haque Sohel 👋
+<h1 align="center">Md. Azizul Haque Sohel</h1>
+<h3 align="center">Software Engineer — Mission-Critical Desktop & Enterprise Web Systems</h3>
 
-### 🚀 Software Engineer | Desktop & Enterprise Web Expert
-Specializing in **Mission-Critical Systems**. I have a proven track record of building robust, data-driven applications for Government Institutions, Healthcare, Finance & Microfinance, Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education sectors.
+<p align="center">
+Building robust, data-driven applications for Government, Healthcare, Finance & Microfinance,
+Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education institutions.
+</p>
 
----
-
-### 🖥️ Desktop-Based Enterprise Systems (C# .NET | Oracle | SQL Server)
-Specialized in building high-performance, secure, and data-heavy desktop applications:
-- ⚡ **University of Dhaka Electric Billing System** | *(Automated utility consumption tracking, custom tariff calculation, and multi-department billing engine built for Dhaka University).*
-- 🏥 **NITOR Hospital Nursing Department Software** | *(Custom workforce scheduling, administrative operations, and clinical workflow management desktop software built for the National Institute of Traumatology & Orthopaedic Rehabilitation).*
-- 🏥 **Hospital Management System:** Full clinical and administrative workflow.
-- ⚡ **Electric Billing System:** Automated utility billing and usage tracking.
-- 💊 **Pharmacy & Canteen Management:** Real-time inventory and sales tracking.
-
----
-
-### 🌐 Live Web Projects & ERP Systems (Enterprise Solutions)
-I have developed and deployed these full-scale enterprise systems:
-- 🏥 **BACTA (Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)** | [Live System](https://bactabd.org) *(A national medical registry and multi-tier ERP portal built with Laravel 11 features: Zero-Row Suppression Registry Matrix, asynchronous AJAX fetch gateway, real-time live summation calculator for multi-procedure clinical data like ASD/VSD/MVR/AVR, secure anti-scraping academic minutes archive, and a 2-layer nested responsive multi-tenant membership directory).*
-- 🛒 **Web-Based Inventory & Stock Management System** | *(A fully online, cloud-ready web application built using PHP & MySQL for real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics).*
-- 🏗️ **Prolific Builders (Pvt.) Ltd.** | [Live System](https://prolificbd.org) *(Official corporate web portal for a premier construction management, engineering design, and strategic supply management firm in Bangladesh).*
-- 🏢 **Glory IT Solutions** | [Live System](https://gloryitsolutions.com) *(Official web portal for a global enterprise IT solution, DevOps, and cloud infrastructure consulting firm operating across Bangladesh & USA).*
-- 🏨 **Hotel Grand Safeer** | [Live System](https://hotelgrandsafeer.com) *(Official web application and booking platform for a premier luxury hotel based in Jamalpur, Bangladesh).*
-- 🏭 **Naogaon Trading & Accessories** | [Corporate Website](https://naogaonaccessories.com) + [Live ERP System](https://matrik.com.bd) *(A complete twin-system deployment for an OEKO-TEX® certified garments accessories manufacturer in Gazipur).*
-- 🌍 **Prime Global Manufacturing Ltd.** | [Live System](https://primeglobalmfg.com) *(Official global corporate portal for an international apparel sourcing hub operating in Bangladesh & Hong Kong).*
-- 🧵 **Karpas Bangla International** | [Live System](https://karpas.com.bd) *(Official web portal for a premier textile, RMG apparel, and jute products supply chain and export-sourcing center based in Motijheel, Dhaka).*
-- 🏠 **Real Estate Management System** | [Live Demo Available](http://hchousingltd.com)
-- 💰 **Enterprise Somiti ERP & Microfinance Multi-Tenant Engine** | [Client Instance 1: NHCS](https://nhcsbd.org) | [Client Instance 2: Amra 11 Jon](https://nhcsbd.org) *(A highly scalable, multi-tenant financial platform featuring multi-tier Admin/Member portals, automated SMS Gateway integration on transaction posting, dynamic member financial ledgers, automated Loan & Installment distribution engine, and automated bank reconciliation).*
-
----
-
-### 🛠️ Technical Mastery
-
-**Languages & Frameworks:**
-- 💻 **Backend:** C# .NET, Raw PHP (Expert), Laravel, Java, C++
-- 🎨 **Frontend:** HTML5, CSS3, JavaScript
-
-**Database Architecture:**
-- 🗄️ **Databases:** Oracle (Expert), MS SQL Server, PostgreSQL (pgsql), MySQL
-- ⚙️ **Focus:** System Architecture, Database Optimization, Enterprise Security
-
----
-
-### 📊 GitHub Profile Stats
-<p align="left">
-  <img src="vercel.app" height="165" alt="Stats" />
-  <img src="vercel.app" height="165" alt="Languages" />
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
 ---
 
-### 🤝 Professional Connection
-- 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
-- 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://linkedin.com)
-- 🏢 **Current Organization:** National Heart Foundation Hospital & Research Institute
+## 🎯 Core Expertise
+
+| Area | Focus |
+|---|---|
+| **System Architecture** | Multi-tenant ERP design, role-based access control, transactional financial ledgers |
+| **Desktop Applications** | High-performance C# .NET systems on Oracle / SQL Server for large institutions |
+| **Enterprise Web** | Laravel-based ERPs with SMS/email automation, PDF reporting, and secure document handling |
+| **Database Engineering** | Schema design, query optimization, data migration & reconciliation for financial systems |
+| **Security** | Authenticated document storage, role-gated approval workflows, audit-safe transaction states |
 
 ---
-*"Dedicated to engineering high-quality, scalable solutions for complex business challenges."*
+
+## 🖥️ Desktop Enterprise Systems
+*(C# .NET | Oracle | SQL Server)*
+
+| Project | Description |
+|---|---|
+| **University of Dhaka — Electric Billing System** | Automated utility consumption tracking, custom tariff calculation, and a multi-department billing engine. |
+| **NITOR Hospital — Nursing Department Software** | Workforce scheduling, administrative operations, and clinical workflow management for the National Institute of Traumatology & Orthopaedic Rehabilitation. Extended into a full **Hospital Management System** covering end-to-end clinical and administrative workflows. |
+| **Pharmacy & Canteen Management System** | Real-time inventory and sales tracking for institutional pharmacy/canteen operations. |
+
+---
+
+## 🌐 Enterprise Web & ERP Systems
+
+### 🏥 Healthcare
+- **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org)
+  Laravel-based member finance platform serving a nurses' welfare society: dynamic deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, a phase-based income-distribution & member-credit system, a dedicated expense-tracking module, role-based Admin/Accountant/Super-Admin approval chains, queued SMS/email transaction notifications, and hardened private-storage handling for sensitive member documents.
+- **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org)
+  National medical registry and multi-tier ERP built on Laravel 11 — zero-row-suppression registry matrix, asynchronous AJAX data gateway, real-time live-summation calculator for multi-procedure clinical data (ASD/VSD/MVR/AVR), an anti-scraping academic-minutes archive, and a 2-layer nested responsive multi-tenant membership directory.
+
+### 🏭 Manufacturing & Supply Chain
+- **Naogaon Trading & Accessories** · [Corporate Site](https://naogaonaccessories.com) · [ERP System](https://matrik.com.bd)
+  Twin-system deployment for an OEKO-TEX®-certified garments accessories manufacturer.
+- **Prime Global Manufacturing Ltd.** · [Live](https://primeglobalmfg.com)
+  Global corporate portal for an apparel sourcing hub operating across Bangladesh & Hong Kong.
+- **Karpas Bangla International** · [Live](https://karpas.com.bd)
+  Portal for a textile, RMG apparel, and jute-products export-sourcing center.
+- **Web-Based Inventory & Stock Management System**
+  Real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics.
+
+### 🏗️ Construction & Real Estate
+- **Prolific Builders (Pvt.) Ltd.** · [Live](https://prolificbd.org)
+  Corporate portal for a construction management, engineering design, and strategic supply firm.
+- **Real Estate Management System** · [Live Demo](http://hchousingltd.com)
+
+### 🏨 Hospitality & IT Services
+- **Hotel Grand Safeer** · [Live](https://hotelgrandsafeer.com)
+  Booking platform for a luxury hotel in Jamalpur, Bangladesh.
+- **Glory IT Solutions** · [Live](https://gloryitsolutions.com)
+  Portal for a global IT solutions, DevOps, and cloud infrastructure consultancy (Bangladesh & USA).
+
+---
+
+## 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=azizulbcse&show_icons=true&theme=default&hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azizulbcse&layout=compact&hide_border=true" height="165" alt="Top Languages" />
+</p>
+
+---
+
+## 🤝 Contact
+
+- 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
+- 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://www.linkedin.com/in/azizulhaquesohel/)
+- 🏢 **Current Organization:** National Heart Foundation Hospital & Research Institute
+
+<p align="center"><i>Engineering high-quality, scalable solutions for complex business challenges.</i></p>
