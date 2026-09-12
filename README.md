@@ -49,6 +49,8 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
 ## 🌐 Enterprise Web & ERP Systems
 
 ### 🏥 Healthcare
+- **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)*
+  End-to-end pediatric hospital platform: OPD patient registration with PVC ID card printing, doctor/chamber management, an e-prescription canvas with smart searchable symptom/diagnosis/drug tag-inputs and dosage/duration matrices, diagnostic-test ordering with integrated billing, QR-coded prescription printing, and live multi-site LAN deployment on a shared cloud PostgreSQL database.
 - **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org)
   Laravel-based member finance platform serving a nurses' welfare society: dynamic deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, a phase-based income-distribution & member-credit system, a dedicated expense-tracking module, role-based Admin/Accountant/Super-Admin approval chains, queued SMS/email transaction notifications, and hardened private-storage handling for sensitive member documents.
 - **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org)
