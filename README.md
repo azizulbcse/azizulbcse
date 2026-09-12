@@ -34,6 +34,8 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
 | **Enterprise Web** | Laravel-based ERPs with SMS/email automation, PDF reporting, and secure document handling |
 | **Database Engineering** | Schema design, query optimization, data migration & reconciliation for financial systems |
 | **Security** | Authenticated document storage, role-gated approval workflows, audit-safe transaction states |
+| **Institutional Websites** | Custom website & software solutions for any institution — schools, NGOs, associations, and corporate bodies |
+| **Research & M&E Data Systems** | KoBoToolbox-based mobile/offline data collection and entry systems for field research and monitoring & evaluation projects |
 
 ---
 
