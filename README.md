@@ -2,7 +2,11 @@
 <h3 align="center">Software Engineer — Mission-Critical Desktop & Enterprise Web Systems</h3>
 
 <p align="center">
-Building robust, data-driven applications for Government, Healthcare, Finance & Microfinance,
+  <img src="https://img.shields.io/badge/Status-Available%20for%20Freelance%20%2F%20Contract%20Work-brightgreen?style=for-the-badge" />
+</p>
+
+<p align="center">
+Building robust, data-driven applications for Healthcare, Finance & Microfinance,
 Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education institutions.
 </p>
 
@@ -10,8 +14,6 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 <p align="center">
@@ -49,7 +51,7 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
 ## 🌐 Enterprise Web & ERP Systems
 
 ### 🏥 Healthcare
-- **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)*
+- **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)* · *Private deployment*
   End-to-end pediatric hospital platform: OPD patient registration with PVC ID card printing, doctor/chamber management, an e-prescription canvas with smart searchable symptom/diagnosis/drug tag-inputs and dosage/duration matrices, diagnostic-test ordering with integrated billing, QR-coded prescription printing, and live multi-site LAN deployment on a shared cloud PostgreSQL database.
 - **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org)
   Laravel-based member finance platform serving a nurses' welfare society: dynamic deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, a phase-based income-distribution & member-credit system, a dedicated expense-tracking module, role-based Admin/Accountant/Super-Admin approval chains, queued SMS/email transaction notifications, and hardened private-storage handling for sensitive member documents.
@@ -63,7 +65,7 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
   Global corporate portal for an apparel sourcing hub operating across Bangladesh & Hong Kong.
 - **Karpas Bangla International** · [Live](https://karpas.com.bd)
   Portal for a textile, RMG apparel, and jute-products export-sourcing center.
-- **Web-Based Inventory & Stock Management System**
+- **Web-Based Inventory & Stock Management System** · *Private deployment*
   Real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics.
 
 ### 🏗️ Construction & Real Estate
@@ -79,19 +81,11 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=azizulbcse&show_icons=true&theme=default&hide_border=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azizulbcse&layout=compact&hide_border=true" height="165" alt="Top Languages" />
-</p>
-
----
-
 ## 🤝 Contact
 
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
 - 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://www.linkedin.com/in/azizulhaquesohel/)
-- 🏢 **Current Organization:** National Heart Foundation Hospital & Research Institute
+- 📱 **WhatsApp:** [+880 1728-226580](https://wa.me/8801728226580)
+- 🏥 **Full-time Role:** Software Engineer, National Heart Foundation Hospital & Research Institute — open to freelance/contract work alongside
 
 <p align="center"><i>Engineering high-quality, scalable solutions for complex business challenges.</i></p>
