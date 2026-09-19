@@ -14,8 +14,13 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 <p align="center">
@@ -70,6 +75,8 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
 ## 🌐 Enterprise Web & ERP Systems
 
 ### 🏥 Healthcare
+- **National Heart Foundation Hospital & Research Institute — Hospital Management System** · *Internal system, in active development*
+  Ongoing ASP.NET Core + React/Next.js HMIS build for one of Bangladesh's leading specialized cardiac hospitals — covering patient records, clinical, and administrative workflows for day-to-day hospital operations.
 - **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)* · *Private deployment*
   End-to-end pediatric hospital platform: OPD patient registration with PVC ID card printing, doctor/chamber management, an e-prescription canvas with smart searchable symptom/diagnosis/drug tag-inputs and dosage/duration matrices, diagnostic-test ordering with integrated billing, QR-coded prescription printing, and live multi-site LAN deployment on a shared cloud PostgreSQL database.
 - **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org)
