@@ -1,14 +1,16 @@
 <h1 align="center">Md. Azizul Haque Sohel</h1>
-<h3 align="center">Software Engineer — Mission-Critical Desktop & Enterprise Web Systems</h3>
+<h3 align="center">Enterprise Software Engineer — C#/.NET · Laravel · ERP · Healthcare Systems</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available%20for%20Freelance%20%2F%20Contract%20Work-brightgreen?style=for-the-badge" />
 </p>
 
 <p align="center">
-Building robust, data-driven applications for Healthcare, Finance & Microfinance,
-Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education institutions.
+I design and build <b>scalable, secure, data-driven software systems</b> for organizations that need<br/>
+more than a simple website — enterprise ERPs, HIMS, financial platforms, and business automation.
 </p>
+
+<p align="center"><i>Turning complex business processes into reliable software systems.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
@@ -25,11 +27,26 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
 
 ---
 
+## 🚀 What I Build
+
+| Domain | Solutions |
+|---|---|
+| 🏥 **Healthcare** | HIMS, e-Prescription, OPD, Diagnostics, Billing, Hospital Operations |
+| 💰 **Finance & Microfinance** | Loan/EMI Engines, Deposit Ledgers, Treasury & Income Distribution |
+| 🏢 **ERP & Business** | Multi-tenant ERP, Accounts, Workflow & Approval Systems |
+| 📦 **Inventory & Supply Chain** | Stock, Warehouse, Purchase/Sales, Manufacturing Operations |
+| 🎓 **Institutions** | University, NGO, Association & Corporate Management Systems |
+| 📊 **Research & M&E** | KoBoToolbox-based Field Data Collection & Offline Data Systems |
+| 🌐 **Web Platforms** | Corporate Websites, Portals & Custom Business Applications |
+
+---
+
 ## 🎯 Core Expertise
 
 | Area | Focus |
 |---|---|
 | **System Architecture** | Multi-tenant ERP design, role-based access control, transactional financial ledgers |
+| **Financial & Accounting Logic** | CapEx/OpEx separation, treasury reconciliation, multi-cohort income-distribution engines, audit-safe ledgers |
 | **Desktop Applications** | High-performance C# .NET systems on Oracle / SQL Server for large institutions |
 | **Enterprise Web** | Laravel-based ERPs with SMS/email automation, PDF reporting, and secure document handling |
 | **Database Engineering** | Schema design, query optimization, data migration & reconciliation for financial systems |
@@ -83,7 +100,28 @@ Industrial Manufacturing, Civil Construction, Supply Chain, and Higher Education
 
 ---
 
-## 🤝 Contact
+## 📊 Engineering Philosophy
+
+```text
+Business Problem → Requirement Analysis → System Architecture → Database Design
+       → Secure Implementation → Testing & Optimization → Deployment → Continuous Improvement
+```
+
+I don't just build features — I build systems that are **Reliable · Maintainable · Secure · Scalable · Business-focused**.
+
+---
+
+## 📌 Featured Repositories
+
+🔹 [Tobacco Free Bangladesh Platform](https://github.com/azizulbcse/tfbp.org)
+
+🔹 [Glory IT Solutions](https://github.com/azizulbcse/gloryitsolutions)
+
+---
+
+## 🤝 Let's Build Something Useful
+
+I'm interested in challenging software projects involving Enterprise Software, ERP Systems, Healthcare/HIMS, Financial Applications & Microfinance, Inventory & Supply Chain, Institutional Software, and Business Automation.
 
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
 - 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://www.linkedin.com/in/azizulhaquesohel/)
