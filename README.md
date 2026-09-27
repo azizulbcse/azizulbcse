@@ -81,8 +81,8 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
   End-to-end pediatric hospital platform: OPD patient registration with PVC ID card printing, doctor/chamber management, an e-prescription canvas with smart searchable symptom/diagnosis/drug tag-inputs and dosage/duration matrices, diagnostic-test ordering with integrated billing, QR-coded prescription printing, and live multi-site LAN deployment on a shared cloud PostgreSQL database.
 - **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org)
   Laravel-based multi-cohort ("Phase") member finance platform for a nurses' welfare society: deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, phase-based income-distribution with automated member-credit accounting, a CapEx/OpEx-aware treasury engine separating capital investment from operating spend, an organization-wide financial-transparency ledger with role-gated visibility, dynamic Others-Income & Donation modules, role-based Admin/Accountant/Super-Admin approval chains, queued SMS/email notifications, and hardened private-storage handling for sensitive member documents.
-- **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org)
-  National medical registry and multi-tier ERP built on Laravel 11 — zero-row-suppression registry matrix, asynchronous AJAX data gateway, real-time live-summation calculator for multi-procedure clinical data (ASD/VSD/MVR/AVR), an anti-scraping academic-minutes archive, and a 2-layer nested responsive multi-tenant membership directory.
+- **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org) · [Source](https://github.com/azizulbcse/bactabd)
+  National medical registry and multi-tier ERP built on Laravel 13 — role-gated admin panel with soft-delete data protection across every content table, automated encrypted daily backups, an admin-managed homepage promotional banner system, a member-application intake pipeline with secretariat approval workflow, a national surgical statistics registry (overall/congenital/valvular procedure tracking by hospital & year), and a full academic journal & clinical-guidelines publication archive.
 
 ### 🏭 Manufacturing & Supply Chain
 - **Naogaon Trading & Accessories** · [Corporate Site](https://naogaonaccessories.com) · [ERP System](https://matrik.com.bd)
@@ -119,6 +119,8 @@ I don't just build features — I build systems that are **Reliable · Maintaina
 ---
 
 ## 📌 Featured Repositories
+
+🔹 [BACTA — Medical Association ERP](https://github.com/azizulbcse/bactabd)
 
 🔹 [Tobacco Free Bangladesh Platform](https://github.com/azizulbcse/tfbp.org)
 
