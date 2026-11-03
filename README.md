@@ -132,8 +132,6 @@ I don't just build features — I build systems that are **Reliable · Maintaina
 
 🔹 [BACTA — Medical Association ERP](https://github.com/azizulbcse/bactabd)
 
-🔹 [Tobacco Free Bangladesh Platform](https://github.com/azizulbcse/tfbp.org)
-
 🔹 [Glory IT Solutions](https://github.com/azizulbcse/gloryitsolutions)
 
 ---
