@@ -1,5 +1,6 @@
 <h1 align="center">Md. Azizul Haque Sohel</h1>
 <h3 align="center">Enterprise Software Engineer — C#/.NET · Laravel · ERP · Healthcare Systems</h3>
+<p align="center">Founder, <a href="https://fringebytetech.com"><b>FringeByte Technologies</b></a> — custom software, ERP & business automation for Bangladesh and worldwide</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available%20for%20Freelance%20%2F%20Contract%20Work-brightgreen?style=for-the-badge" />
@@ -97,6 +98,12 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
 - **Web-Based Inventory & Stock Management System** · *Private deployment*
   Real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics.
 
+### 🛒 Trading & Retail
+- **M/s. Tawwab Trade Center — Stock, Sales & Accounts System** · *Private deployment, live since September 2024* · [Case Study](https://fringebytetech.com/services/inventory-accounting-software#case-study)
+  Replaced a trading center's paper registers with one PHP/MySQL system that runs its day-to-day business: two sales-invoice workflows built around how the business actually bills (bundle and quantity, labour and transport charges, discount, previous due carried forward), stock-in and chalan entry with a live stock list, a dedicated customer due-collection module with money receipts, supplier payments and ledgers, expense vouchers, and a full chart of accounts (account groups, heads, payees and banks). Customers get an automatic SMS on every sale and due payment showing total, paid and remaining due, with every message and its cost logged. Printable invoices, chalans, customer and supplier ledgers, and date-wise sales and cash-collection reports, backed by SQL reporting views. In 2026 the system was security-hardened without disrupting daily use: passwords moved to bcrypt with transparent upgrade on next login, credentials pulled out of the code into a separate config, and login switched to prepared statements.
+
+  <img src="ttc-sales-entry.png" alt="Tawwab Trade Center sales entry screen" width="720" />
+
 ### 🏗️ Construction & Real Estate
 - **Prolific Builders (Pvt.) Ltd.** · [Live](https://prolificbd.org)
   Corporate portal for a construction management, engineering design, and strategic supply firm.
@@ -135,6 +142,7 @@ I don't just build features — I build systems that are **Reliable · Maintaina
 
 I'm interested in challenging software projects involving Enterprise Software, ERP Systems, Healthcare/HIMS, Financial Applications & Microfinance, Inventory & Supply Chain, Institutional Software, and Business Automation.
 
+- 🌐 **Company:** [FringeByte Technologies](https://fringebytetech.com) — see case studies and request a demo
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
 - 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://www.linkedin.com/in/azizulhaquesohel/)
 - 📱 **WhatsApp:** [+880 1728-226580](https://wa.me/8801728226580)
