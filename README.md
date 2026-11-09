@@ -103,7 +103,7 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
   <img src="naogaon-erp.jpg" alt="Naogaon ERP — website content managed from the back office, and the public challan verification page" width="720" />
 - **Prime Global Manufacturing Ltd.** · [Live](https://primeglobalmfg.com)
   Global corporate portal for an apparel sourcing hub operating across Bangladesh & Hong Kong.
-- **Karpas Bangla International** · [Live](https://karpas.com.bd)
+- **Karpas Bangla International** · *Delivered · site no longer online*
   Portal for a textile, RMG apparel, and jute-products export-sourcing center.
 - **Web-Based Inventory & Stock Management System** · *Private deployment*
   Real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics.
