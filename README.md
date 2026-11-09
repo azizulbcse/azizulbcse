@@ -40,7 +40,8 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
 | 🏥 **Healthcare** | HIMS, e-Prescription, OPD, Diagnostics, Billing, Hospital Operations |
 | 💰 **Finance & Microfinance** | Loan/EMI Engines, Deposit Ledgers, Treasury & Income Distribution |
 | 🏢 **ERP & Business** | Multi-tenant ERP, Accounts, Workflow & Approval Systems |
-| 📦 **Inventory & Supply Chain** | Stock, Warehouse, Purchase/Sales, Manufacturing Operations |
+| 📦 **Inventory & Supply Chain** | Stock, Warehouse, Purchase/Sales, Manufacturing Operations, QR-Verifiable Delivery Challans |
+| 🏭 **Garments & Export Manufacturing** | Bilingual Export-Buyer Websites with RFQ Pipelines, Website + ERP on One Platform |
 | 🎓 **Institutions** | University, NGO, Association & Corporate Management Systems |
 | 📊 **Research & M&E** | KoBoToolbox-based Field Data Collection & Offline Data Systems |
 | 🌐 **Web Platforms** | Corporate Websites, Portals & Custom Business Applications |
@@ -89,8 +90,17 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
   Laravel 13 platform for a pediatric cardiac surgery practice, pairing a public doctor-portfolio site with a full e-prescription clinic-management backend: patient registry with guardian-phone/name+DOB duplicate detection, a daily-reset Visit/Token queue with POS-style receipt printing, a structured prescription canvas (reusable clinical-term dictionaries, saved presets, searchable medicine/dosage pickers, Plain-Paper/Letterhead-Pad print modes) and QR-code-verifiable digital prescriptions with a public no-login verification page. Built with a medico-legal-safe editing model — same-day in-place correction only, with an explicit, separately-styled "Follow-Up as New Rx" path so a later visit always creates a new record instead of silently overwriting history, idempotency-protected double-submit guarding, and concurrent-edit conflict detection — plus role-based access (Doctor/Super Admin/PA), a patient-history timeline embedded on the Rx-writing screen, and Asia/Dhaka-timezone-correct reporting.
 
 ### 🏭 Manufacturing & Supply Chain
-- **Naogaon Trading & Accessories** · [Corporate Site](https://naogaonaccessories.com) · [ERP System](https://matrik.com.bd)
-  Twin-system deployment for an OEKO-TEX®-certified garments accessories manufacturer.
+- **M/s. Naogaon Accessories — Bilingual Corporate Website + Delivery-Challan ERP** · *Private deployment · corporate site launching soon*
+  One Laravel 13 / PHP 8.5 / PostgreSQL 18 codebase that runs both the public face and the back office of an OEKO-TEX®-certified garment-accessories manufacturer (labels, hangtags, twill tape & elastic) that supplies apparel makers for global retail brands.
+  - **Export-buyer website (English + Bangla)** built to win RFQs from foreign buyers: product sections with daily capacities and made-in-house vs. supplied badges, factory capabilities, compliance & certificate page, buyer-markets page, FAQ, and a "Get a Quote" form on every page. Mobile-first, fast (WebP image pipeline, self-hosted fonts) and SEO-ready — schema.org structured data, sitemap, hreflang, breadcrumbs.
+  - **Website managed from the ERP — no developer needed:** company details, homepage text, product sections, FAQ, photos and buyer lists are edited in the back office and go live on save, with full change history and restore.
+  - **RFQ pipeline:** quote requests (with tech-pack / artwork uploads) land in the ERP with a header notification bell, status tracking (new → in progress → quoted → closed), one-tap WhatsApp/email/call replies, and private file storage. Bot-proofed with a honeypot, signed time-stamps, origin checks and rate limiting — no annoying CAPTCHA.
+  - **QR-verifiable delivery challans:** every challan carries a QR code; receiving factories can also confirm a challan on a public verify page (even typed in Bangla digits) that shows only status and date — never buyer, factory or item details.
+  - **Challan & multi-factory operations** with role-based permissions, audit trail on every change, soft delete + restore, and optimistic locking so two users can't silently overwrite each other.
+  - **Built to hand over:** a complete in-app Bangla user manual and 170+ automated tests guarding every release.
+
+  <img src="naogaon-website.jpg" alt="Naogaon Accessories corporate website — desktop (English) and mobile (Bangla)" width="720" />
+  <img src="naogaon-erp.jpg" alt="Naogaon ERP — website content managed from the back office, and the public challan verification page" width="720" />
 - **Prime Global Manufacturing Ltd.** · [Live](https://primeglobalmfg.com)
   Global corporate portal for an apparel sourcing hub operating across Bangladesh & Hong Kong.
 - **Karpas Bangla International** · [Live](https://karpas.com.bd)
