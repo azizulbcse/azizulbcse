@@ -4,6 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available%20for%20Freelance%20%2F%20Contract%20Work-brightgreen?style=for-the-badge" />
+  <a href="https://fringebytetech.com"><img src="https://img.shields.io/badge/Website-fringebytetech.com-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://fringebytetech.com/services"><img src="https://img.shields.io/badge/Case%20Studies-View%20Live%20Work-7C3AED?style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -30,6 +32,22 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
+
+---
+
+## 🌐 [fringebytetech.com](https://fringebytetech.com) — my company website, built end to end
+
+<a href="https://fringebytetech.com"><img src="fringebytetech-website.jpg" alt="FringeByte Technologies website — homepage" width="720" /></a>
+
+Designed, engineered and run by me as a production showcase of how I build for clients:
+
+- **Stack:** Laravel 13 · PHP 8.5 · Tailwind CSS · Alpine.js · Vite, deployed on cPanel through a CI-built release branch and a server-side pull deploy
+- **Bilingual by design:** separate English and Bangla URLs (`/` and `/bn`) with hreflang, so both languages are indexed by Google
+- **SEO-first:** JSON-LD structured data (Organization, Service, FAQ, Breadcrumb), XML sitemap, canonical-host redirects, Google Search Console and Google Business Profile integration
+- **Fast:** WebP images with real dimensions (no layout shift), self-hosted fonts, motion that respects reduced-motion settings
+- **Secure:** HSTS and security headers, and a spam-hardened contact form (honeypot, signed time-trap, link and disposable-email checks, per-IP and per-sender rate limits)
+- **Tested:** 138 automated feature tests guarding every release
+- **Real proof:** [live case studies](https://fringebytetech.com/services) for every client project below, with privacy-blurred screenshots and real outcomes
 
 ---
 
@@ -79,18 +97,18 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
 ### 🏥 Healthcare
 - **National Heart Foundation Hospital & Research Institute — Hospital Management System** · *Internal system, in active development*
   Ongoing ASP.NET Core + React/Next.js HMIS build for one of Bangladesh's leading specialized cardiac hospitals — covering patient records, clinical, and administrative workflows for day-to-day hospital operations.
-- **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)* · *Private deployment*
+- **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)* · *Private deployment* · [Case Study](https://fringebytetech.com/services/hospital-management-software#case-study)
   End-to-end pediatric hospital platform: OPD patient registration with PVC ID card printing (registration-fee revenue tracked separately from consultation income) and a hybrid printing pipeline — a local polling agent for true silent, driverless printing at the counter PC, with one-click print fallbacks engineered for reliability on shared hosting; doctor/chamber management with manual and automatic percentage-based revenue-share ledgers; an e-prescription canvas with smart searchable symptom/diagnosis/drug tag-inputs (including inline on-the-fly medicine-library additions) and dosage/duration matrices backed by a 20,000+ item medicine formulary; crash-resilient browser-side draft auto-save across OPD ticketing and patient registration; diagnostic-test ordering with integrated, percentage-based doctor/lab revenue-share billing; QR-verifiable patient ID cards and e-prescriptions with unguessable token-based public/staff-gated detail tiers, built to survive future domain migrations; a pluggable multi-source income-reporting engine with trend charts, pending-revenue indicators, CSV exports, and branded paginated A4 letterhead reports, unified under a single Reports & Analytics hub alongside OPD/test-order/card-print audit logs; a live, auto-refreshing analytics dashboard with trend indicators, doctor workload, and follow-up tracking; a complete in-app Bangla-language user manual; and live multi-site LAN deployment on a shared, security-hardened cloud PostgreSQL database.
-- **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org)
+- **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org) · [Case Study](https://fringebytetech.com/services/erp-software#case-study)
   Laravel-based multi-cohort ("Phase") member finance platform for a nurses' welfare society: deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, phase-based income-distribution with automated member-credit accounting, a CapEx/OpEx-aware treasury engine separating capital investment from operating spend, an organization-wide financial-transparency ledger with role-gated visibility, dynamic Others-Income & Donation modules, role-based Admin/Accountant/Super-Admin approval chains, resilient post-response SMS/email dispatch (no background queue-worker dependency), and hardened private-storage handling for sensitive member documents.
-- **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org)
+- **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org) · [Case Study](https://fringebytetech.com/services/website-development#case-study)
   National medical registry and multi-tier ERP built on Laravel 13 — role-gated admin panel with soft-delete data protection across every content table, automated encrypted daily backups, an admin-managed homepage promotional banner system, a member-application intake pipeline with secretariat approval workflow, a national surgical statistics registry (overall/congenital/valvular procedure tracking by hospital & year), and a full academic journal & clinical-guidelines publication archive.
 
-- **Dr. Prodip Portfolio & Smart Prescription System** · [Live](https://drpkb.nhcsbd.org)
+- **Dr. Prodip Portfolio & Smart Prescription System** · [Live](https://drpkb.nhcsbd.org) · [Case Study](https://fringebytetech.com/services/doctor-website-e-prescription#case-study)
   Laravel 13 platform for a pediatric cardiac surgery practice, pairing a public doctor-portfolio site with a full e-prescription clinic-management backend: patient registry with guardian-phone/name+DOB duplicate detection, a daily-reset Visit/Token queue with POS-style receipt printing, a structured prescription canvas (reusable clinical-term dictionaries, saved presets, searchable medicine/dosage pickers, Plain-Paper/Letterhead-Pad print modes) and QR-code-verifiable digital prescriptions with a public no-login verification page. Built with a medico-legal-safe editing model — same-day in-place correction only, with an explicit, separately-styled "Follow-Up as New Rx" path so a later visit always creates a new record instead of silently overwriting history, idempotency-protected double-submit guarding, and concurrent-edit conflict detection — plus role-based access (Doctor/Super Admin/PA), a patient-history timeline embedded on the Rx-writing screen, and Asia/Dhaka-timezone-correct reporting.
 
 ### 🏭 Manufacturing & Supply Chain
-- **M/s. Naogaon Accessories — Bilingual Corporate Website + Delivery-Challan ERP** · *Private deployment · corporate site launching soon*
+- **M/s. Naogaon Accessories — Bilingual Corporate Website + Delivery-Challan ERP** · *Private deployment · corporate site launching soon* · [Case Study](https://fringebytetech.com/services/garment-manufacturing-erp-software#case-study)
   One Laravel 13 / PHP 8.5 / PostgreSQL 18 codebase that runs both the public face and the back office of an OEKO-TEX®-certified garment-accessories manufacturer (labels, hangtags, twill tape & elastic) that supplies apparel makers for global retail brands.
   - **Export-buyer website (English + Bangla)** built to win RFQs from foreign buyers: product sections with daily capacities and made-in-house vs. supplied badges, factory capabilities, compliance & certificate page, buyer-markets page, FAQ, and a "Get a Quote" form on every page. Mobile-first, fast (WebP image pipeline, self-hosted fonts) and SEO-ready — schema.org structured data, sitemap, hreflang, breadcrumbs.
   - **Website managed from the ERP — no developer needed:** company details, homepage text, product sections, FAQ, photos and buyer lists are edited in the back office and go live on save, with full change history and restore.
@@ -139,6 +157,8 @@ I don't just build features — I build systems that are **Reliable · Maintaina
 ---
 
 ## 📌 Featured Repositories
+
+🔹 [FringeByte Technologies — company website (Laravel 13, bilingual, SEO-first)](https://fringebytetech.com)
 
 🔹 [BACTA — Medical Association ERP](https://bactabd.org)
 
