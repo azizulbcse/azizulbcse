@@ -62,6 +62,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 | 🏭 **Garments & Export Manufacturing** | Bilingual Export-Buyer Websites with RFQ Pipelines, Website + ERP on One Platform |
 | 🎓 **Institutions** | University, NGO, Association & Corporate Management Systems |
 | 📊 **Research & M&E** | KoBoToolbox-based Field Data Collection & Offline Data Systems |
+| 🛒 **E-commerce** | Bilingual Online Stores, Installable (PWA) Shopfronts, Store Admin with Team Roles & 2FA |
 | 🌐 **Web Platforms** | Corporate Websites, Portals & Custom Business Applications |
 
 ---
@@ -127,6 +128,14 @@ Designed, engineered and run by me as a production showcase of how I build for c
   Real-time stock tracking, multi-warehouse inventory valuation, reorder alerts, and automated purchase/sales analytics.
 
 ### 🛒 Trading & Retail
+- **Muslim Ummah Mart — Bilingual E-commerce Store + Store Admin** · *Launching soon at muslimummahmart.com*
+  Laravel 13 / PHP 8.5 / PostgreSQL 18 online store with a Filament 5 back office, built to be run by the shop's own staff.
+  - **Storefront (English + Bangla):** category browsing, fast search, product variants with price ranges and discount badges, a one-tap WhatsApp chat button, and a mobile-first design that installs on phones as an app (PWA) with a bottom navigation bar and an offline page.
+  - **Store admin that is safe by default:** branded sign-in with mandatory two-step verification (authenticator app + recovery codes), a sign-in log, and an email alert whenever an account signs in from a new device.
+  - **Team management:** staff join through signed, single-use, 48-hour email invitations and set their own strong password; Owner / Manager / Staff roles with permission policies; employee IDs issued from a database sequence, so simultaneous entries never collide.
+  - **Audit-safe data:** every table records who created, edited and deleted each row and when, deletes are soft (restorable, never permanent), and a change history shows what changed.
+  - **Fast at scale:** indexed foreign keys, trigram indexes for partial-word product search, and case-insensitive unique constraints that stop duplicates even under concurrent entry.
+  - **Shipped like a product:** security headers and rate limits, 115 automated tests, and a CI pipeline that tests, builds and publishes a release branch that the cPanel server pulls automatically.
 - **M/s. Tawwab Trade Center — Stock, Sales & Accounts System** · *Private deployment, live since September 2024* · [Case Study](https://fringebytetech.com/services/inventory-accounting-software#case-study)
   Replaced a trading center's paper registers with one PHP/MySQL system that runs its day-to-day business: two sales-invoice workflows built around how the business actually bills (bundle and quantity, labour and transport charges, discount, previous due carried forward), stock-in and chalan entry with a live stock list, a dedicated customer due-collection module with money receipts, supplier payments and ledgers, expense vouchers, and a full chart of accounts (account groups, heads, payees and banks). Customers get an automatic SMS on every sale and due payment showing total, paid and remaining due, with every message and its cost logged. Printable invoices, chalans, customer and supplier ledgers, and date-wise sales and cash-collection reports, backed by SQL reporting views. In 2026 the system was security-hardened without disrupting daily use: passwords moved to bcrypt with transparent upgrade on next login, credentials pulled out of the code into a separate config, and login switched to prepared statements.
 
