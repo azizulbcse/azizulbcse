@@ -132,11 +132,13 @@ Designed, engineered and run by me as a production showcase of how I build for c
   Laravel 13 / PHP 8.5 / PostgreSQL 18 online store with a Filament 5 back office, built to be run by the shop's own staff — live on its own domain since November 2026.
   - **Storefront:** designed from the brand's own logo, with category browsing, fast search, product variants with price ranges and discount badges, a one-tap WhatsApp chat button, and a mobile-first design that installs on phones as an app (PWA) with a bottom navigation bar and an offline page.
   - **Bilingual catalog & admin:** every product, category and variant stored in English and Bangla; the admin panel switches language in one tap.
-  - **Protected sign-in:** branded admin login, a sign-in log, an email alert whenever an account signs in from a new device, and optional two-step verification (authenticator app + recovery codes).
+  - **Protected sign-in:** branded admin login with its own session guard (separate from customer accounts), a sign-in log, a welcome notice showing the previous sign-in, an email alert from any new device, self-service Change / Forgot password (strength checklist, signs out other devices, no account discovery), and optional two-step verification.
+  - **Marketing popups:** offers and announcements managed by the shop — bilingual banner, button and schedule (starts/stops on its own), once-a-day frequency remembered in the visitor's browser, a bottom sheet on phones, and a signed admin-only preview.
+  - **Built to hand over:** an in-panel Bangla user guide that shows each role only what it can do, and branded bilingual error pages with a support reference that maps to the exact log entry — no stack traces, ever.
   - **Team management:** staff join through signed, single-use, 48-hour email invitations and set their own strong password; Owner / Manager / Staff roles with permission policies; employee IDs issued from a database sequence, so simultaneous entries never collide.
   - **Audit-safe data:** every table records who created, edited and deleted each row and when, deletes are soft (restorable, never permanent), and a change history shows what changed.
   - **Fast at scale:** indexed foreign keys, trigram indexes for partial-word product search, and case-insensitive unique constraints that stop duplicates even under concurrent entry.
-  - **Shipped like a product:** security headers and rate limits, 115 automated tests, and a CI pipeline that tests, builds and publishes a release branch that the cPanel server pulls automatically.
+  - **Shipped like a product:** security headers and rate limits, 155+ automated tests, and a CI pipeline that tests, builds and publishes a release branch that the cPanel server pulls automatically.
 
   <a href="https://muslimummahmart.com"><img src="muslim-ummah-mart.jpg" alt="Muslim Ummah Mart online store on desktop and mobile" width="720" /></a>
 - **M/s. Tawwab Trade Center — Stock, Sales & Accounts System** · *Private deployment, live since September 2024* · [Case Study](https://fringebytetech.com/services/inventory-accounting-software#case-study)
