@@ -87,7 +87,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 
 | Project | Description |
 |---|---|
-| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain roughly 60% of these modules. [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study) |
+| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study) |
 | **University of Dhaka — Electric Billing System** | Automated utility consumption tracking, custom tariff calculation, and a multi-department billing engine. |
 | **NITOR Hospital — Nursing Department Software** | Workforce scheduling, administrative operations, and clinical workflow management for the National Institute of Traumatology & Orthopaedic Rehabilitation. Extended into a full **Hospital Management System** covering end-to-end clinical and administrative workflows. |
 | **Pharmacy & Canteen Management System** | Real-time inventory and sales tracking for institutional pharmacy/canteen operations. |
