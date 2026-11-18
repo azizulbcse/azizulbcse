@@ -87,7 +87,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 
 | Project | Description |
 |---|---|
-| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study) |
+| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study) · *see "Healthcare" below for the ongoing web migration of this same system* |
 | **University of Dhaka — Electric Billing System** | Automated utility consumption tracking, custom tariff calculation, and a multi-department billing engine. |
 | **NITOR Hospital — Nursing Department Software** | Workforce scheduling, administrative operations, and clinical workflow management for the National Institute of Traumatology & Orthopaedic Rehabilitation. Extended into a full **Hospital Management System** covering end-to-end clinical and administrative workflows. |
 | **Pharmacy & Canteen Management System** | Real-time inventory and sales tracking for institutional pharmacy/canteen operations. |
@@ -97,17 +97,45 @@ Designed, engineered and run by me as a production showcase of how I build for c
 ## 🌐 Enterprise Web & ERP Systems
 
 ### 🏥 Healthcare
-- **National Heart Foundation Hospital & Research Institute — Hospital Management System** · *Internal system, in active development* · [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study)
-  Ongoing ASP.NET Core + React/Next.js HMIS build for one of Bangladesh's leading specialized cardiac hospitals — covering patient records, clinical, and administrative workflows for day-to-day hospital operations.
+- **National Heart Foundation Hospital & Research Institute — Legacy-to-Web Migration** · *Internal system, in active development* · [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study)
+  Migrating the 34-module legacy desktop HMS above (see **Desktop Enterprise Systems**) to a modern ASP.NET Core + React/Next.js stack, module by module — with the legacy system staying live on the same production database throughout, zero downtime and zero tolerance for data loss.
+  - **Public-facing:** a no-login notice board with view-tracking and full audit history, and public ticketing/helpdesk with QR-verifiable status lookup.
+  - **Staff portal & dashboard:** rebuilt from a generic template into a real portal with live OPD/IPD/CAG/CABG counts and a performance-first, independently-loading dashboard.
+  - **Appointment & Consultant suite:** walk-in booking, slot scheduling, a race-condition-safe capacity guard, an admission-request workflow, and SMS notifications on booking and admission.
+  - **Security-first:** found and closed a live PII leak (13,000+ records) during an independent review; every schema change is additive-only, and tables shared with still-running legacy systems use lock-and-retry instead of assuming exclusive ownership.
+
 - **CHTB HIMS** *(Child Heart Trust Bangladesh — Hospital Information Management System)* · *Private deployment* · [Case Study](https://fringebytetech.com/services/hospital-management-software#case-study)
-  End-to-end pediatric hospital platform: OPD patient registration with PVC ID card printing (registration-fee revenue tracked separately from consultation income) and a hybrid printing pipeline — a local polling agent for true silent, driverless printing at the counter PC, with one-click print fallbacks engineered for reliability on shared hosting; doctor/chamber management with manual and automatic percentage-based revenue-share ledgers; an e-prescription canvas with smart searchable symptom/diagnosis/drug tag-inputs (including inline on-the-fly medicine-library additions) and dosage/duration matrices backed by a 20,000+ item medicine formulary; crash-resilient browser-side draft auto-save across OPD ticketing and patient registration; diagnostic-test ordering with integrated, percentage-based doctor/lab revenue-share billing; QR-verifiable patient ID cards and e-prescriptions with unguessable token-based public/staff-gated detail tiers, built to survive future domain migrations; a pluggable multi-source income-reporting engine with trend charts, pending-revenue indicators, CSV exports, and branded paginated A4 letterhead reports, unified under a single Reports & Analytics hub alongside OPD/test-order/card-print audit logs; a live, auto-refreshing analytics dashboard with trend indicators, doctor workload, and follow-up tracking; a complete in-app Bangla-language user manual; and live multi-site LAN deployment on a shared, security-hardened cloud PostgreSQL database.
+  End-to-end pediatric hospital platform covering OPD registration, e-prescription, diagnostics billing, and multi-source income reporting.
+  - **OPD & registration:** PVC ID card printing with registration-fee revenue tracked separately from consultation income, via a hybrid printing pipeline — a local polling agent for true silent, driverless printing at the counter PC, with one-click fallbacks for reliability on shared hosting.
+  - **Doctor & revenue management:** chamber management with manual and automatic percentage-based revenue-share ledgers.
+  - **E-prescription:** a canvas with smart, searchable symptom/diagnosis/drug tag-inputs (including inline on-the-fly medicine-library additions) and dosage/duration matrices backed by a 20,000+ item medicine formulary; crash-resilient browser-side draft auto-save across OPD ticketing and registration.
+  - **Diagnostics:** test ordering with integrated, percentage-based doctor/lab revenue-share billing.
+  - **QR verification:** patient ID cards and e-prescriptions with unguessable, token-based public/staff-gated detail tiers, built to survive future domain migrations.
+  - **Reporting:** a pluggable multi-source income-reporting engine with trend charts, pending-revenue indicators, CSV exports, and branded paginated A4 letterhead reports — unified under a single Reports & Analytics hub alongside OPD/test-order/card-print audit logs, plus a live auto-refreshing dashboard with doctor workload and follow-up tracking.
+  - **Built to hand over:** a complete in-app Bangla user manual, and live multi-site LAN deployment on a shared, security-hardened cloud PostgreSQL database.
+
 - **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org) · [Case Study](https://fringebytetech.com/services/erp-software#case-study)
-  Laravel-based multi-cohort ("Phase") member finance platform for a nurses' welfare society: deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, phase-based income-distribution with automated member-credit accounting, a CapEx/OpEx-aware treasury engine separating capital investment from operating spend, an organization-wide financial-transparency ledger with role-gated visibility, QR-verifiable member financial statements (deposit, income-share, and combined account ledgers) with signed-link tamper verification, a live analytics dashboard with collection-trend charting, dynamic Others-Income & Donation modules, role-based Admin/Accountant/Super-Admin approval chains, resilient post-response SMS/email dispatch (no background queue-worker dependency), and hardened private-storage handling for sensitive member documents.
+  Laravel-based multi-cohort ("Phase") member finance platform for a nurses' welfare society.
+  - **Member finance:** deposit ledgers with proof-of-payment verification, an EMI loan disbursement & bulk-repayment engine, and phase-based income-distribution with automated member-credit accounting.
+  - **Treasury:** a CapEx/OpEx-aware engine separating capital investment from operating spend, plus an organization-wide financial-transparency ledger with role-gated visibility.
+  - **QR-verifiable statements:** member deposit, income-share, and combined account ledgers with signed-link tamper verification.
+  - **Analytics & approvals:** a live dashboard with collection-trend charting, dynamic Others-Income & Donation modules, and role-based Admin/Accountant/Super-Admin approval chains.
+  - **Reliability:** resilient post-response SMS/email dispatch with no background queue-worker dependency, and hardened private-storage handling for sensitive member documents.
+
 - **BACTA** *(Bangladesh Association of Cardiovascular & Thoracic Anesthesiologists)* · [Live](https://bactabd.org) · [Case Study](https://fringebytetech.com/services/website-development#case-study)
-  National medical registry and multi-tier ERP built on Laravel 13 — role-gated admin panel with soft-delete data protection across every content table, automated encrypted daily backups, an admin-managed homepage promotional banner system, a member-application intake pipeline with secretariat approval workflow, a national surgical statistics registry (overall/congenital/valvular procedure tracking by hospital & year), and a full academic journal & clinical-guidelines publication archive.
+  National medical registry and multi-tier ERP built on Laravel 13.
+  - Role-gated admin panel with soft-delete data protection across every content table, and automated encrypted daily backups.
+  - Admin-managed homepage promotional banner system.
+  - A member-application intake pipeline with secretariat approval workflow.
+  - A national surgical statistics registry (overall/congenital/valvular procedure tracking by hospital & year).
+  - A full academic journal & clinical-guidelines publication archive.
 
 - **Dr. Prodip Portfolio & Smart Prescription System** · [Live](https://drpkb.nhcsbd.org) · [Case Study](https://fringebytetech.com/services/doctor-website-e-prescription#case-study)
-  Laravel 13 platform for a pediatric cardiac surgery practice, pairing a public doctor-portfolio site with a full e-prescription clinic-management backend: patient registry with guardian-phone/name+DOB duplicate detection, a daily-reset Visit/Token queue with POS-style receipt printing, a structured prescription canvas (reusable clinical-term dictionaries, saved presets, searchable medicine/dosage pickers, Plain-Paper/Letterhead-Pad print modes) and QR-code-verifiable digital prescriptions with a public no-login verification page. Built with a medico-legal-safe editing model — same-day in-place correction only, with an explicit, separately-styled "Follow-Up as New Rx" path so a later visit always creates a new record instead of silently overwriting history, idempotency-protected double-submit guarding, and concurrent-edit conflict detection — plus role-based access (Doctor/Super Admin/PA), a patient-history timeline embedded on the Rx-writing screen, and Asia/Dhaka-timezone-correct reporting.
+  Laravel 13 platform for a pediatric cardiac surgery practice, pairing a public doctor-portfolio site with a full e-prescription clinic-management backend.
+  - **Patient flow:** patient registry with guardian-phone/name+DOB duplicate detection, and a daily-reset Visit/Token queue with POS-style receipt printing.
+  - **Prescription canvas:** reusable clinical-term dictionaries, saved presets, searchable medicine/dosage pickers, and Plain-Paper/Letterhead-Pad print modes, with QR-code-verifiable digital prescriptions and a public no-login verification page.
+  - **Medico-legal-safe editing:** same-day in-place correction only, with an explicit, separately-styled "Follow-Up as New Rx" path so a later visit always creates a new record instead of silently overwriting history; idempotency-protected double-submit guarding and concurrent-edit conflict detection.
+  - **Access & reporting:** role-based access (Doctor/Super Admin/PA), a patient-history timeline embedded on the Rx-writing screen, and Asia/Dhaka-timezone-correct reporting.
 
 ### 🏭 Manufacturing & Supply Chain
 - **M/s. Naogaon Accessories — Bilingual Corporate Website + Delivery-Challan ERP** · *Private deployment · corporate site launching soon* · [Case Study](https://fringebytetech.com/services/garment-manufacturing-erp-software#case-study)
@@ -133,7 +161,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
   Laravel 13 / PHP 8.5 / PostgreSQL 18 online store with a Filament 5 back office, built to be run by the shop's own staff — live on its own domain since November 2026.
   - **Storefront:** designed from the brand's own logo, with category browsing, fast search, product variants with price ranges and discount badges, a one-tap WhatsApp chat button, and a mobile-first design that installs on phones as an app (PWA) with a bottom navigation bar and an offline page.
   - **Two-tap WhatsApp ordering:** a product quick view (gallery, size, live stock, quantity and total) whose button sends a ready-written order — product, size, quantity and price, in the visitor's language — to the shop's WhatsApp, with cash on delivery. Prices always come from the database, and a config switch moves the store to full cart checkout when it's ready.
-  - **Honoured customers wall:** staff add customers or import an Excel/CSV list (Bangla or English headers, any phone format, duplicates skipped); the home page shows only the name, district and own words of customers who agreed, beside a live SVG dot map of Bangladesh's 64 districts (drawn from real coordinates) where their districts glow gold — phone numbers and addresses never leave the admin, and Staff see them masked.
+  - **Honoured customers wall:** staff add customers or import an Excel/CSV list (Bangla or English headers, any phone format, duplicates skipped); the home page shows only the name, district and own words of customers who agreed, beside a live SVG dot map of Bangladesh's 64 districts (drawn from real coordinates) where their districts glow gold — phone numbers and addresses never leave the admin, and staff see them masked.
   - **Bilingual catalog & admin:** every product, category and variant stored in English and Bangla; the admin panel switches language in one tap.
   - **Protected sign-in:** branded admin login with its own session guard (separate from customer accounts), a sign-in log, a welcome notice showing the previous sign-in, an email alert from any new device, self-service Change / Forgot password (strength checklist, signs out other devices, no account discovery), and optional two-step verification.
   - **Marketing popups:** offers and announcements managed by the shop — bilingual banner, button and schedule (starts/stops on its own), once-a-day frequency remembered in the visitor's browser, a bottom sheet on phones, and a signed admin-only preview.
@@ -152,7 +180,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 ### 🏗️ Construction & Real Estate
 - **Prolific Builders (Pvt.) Ltd.** · [Live](https://prolificbd.org)
   Corporate portal for a construction management, engineering design, and strategic supply firm.
-- **Real Estate Management System** · [Live Demo](http://hchousingltd.com)
+- **Real Estate Management System** · [Live Demo](https://hchousingltd.com)
 
 ### 🏨 Hospitality & IT Services
 - **Hotel Grand Safeer** · [Live](https://hotelgrandsafeer.com)
@@ -173,13 +201,13 @@ I don't just build features — I build systems that are **Reliable · Maintaina
 
 ---
 
-## 📌 Featured Repositories
+## 📌 Featured Work
 
 🔹 [FringeByte Technologies — company website (Laravel 13, bilingual, SEO-first)](https://fringebytetech.com)
 
 🔹 [BACTA — Medical Association ERP](https://bactabd.org)
 
-🔹 [Glory IT Solutions](https://github.com/azizulbcse/gloryitsolutions)
+🔹 [Glory IT Solutions — GitHub repository](https://github.com/azizulbcse/gloryitsolutions)
 
 ---
 
