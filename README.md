@@ -112,7 +112,8 @@ Designed, engineered and run by me as a production showcase of how I build for c
   - **Diagnostics:** test ordering with integrated, percentage-based doctor/lab revenue-share billing.
   - **QR verification:** patient ID cards and e-prescriptions with unguessable, token-based public/staff-gated detail tiers, built to survive future domain migrations.
   - **Reporting:** a pluggable multi-source income-reporting engine with trend charts, pending-revenue indicators, CSV exports, and branded paginated A4 letterhead reports — unified under a single Reports & Analytics hub alongside OPD/test-order/card-print audit logs, plus a live auto-refreshing dashboard with doctor workload and follow-up tracking.
-  - **Built to hand over:** a complete in-app Bangla user manual, and live multi-site LAN deployment on a shared, security-hardened cloud PostgreSQL database.
+  - **Engineering discipline:** a PostgreSQL-backed automated regression test suite and a GitHub Actions CI pipeline running it (plus a dependency security audit) on every change.
+  - **Built to hand over:** a complete in-app Bangla user manual, proprietary licensing, and a hosted VPS deployment on a security-hardened PostgreSQL database.
 
 - **NHCSBD MIMS — Somiti ERP & Microfinance Engine** · [Live](https://nhcsbd.org) · [Case Study](https://fringebytetech.com/services/erp-software#case-study)
   Laravel-based multi-cohort ("Phase") member finance platform for a nurses' welfare society.
