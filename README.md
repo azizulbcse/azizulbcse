@@ -87,7 +87,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 
 | Project | Description |
 |---|---|
-| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study) · *see "Healthcare" below for the ongoing web migration of this same system* |
+| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. *Case study available on request* · *see "Healthcare" below for the ongoing web migration of this same system* |
 | **University of Dhaka — Electric Billing System** | Automated utility consumption tracking, custom tariff calculation, and a multi-department billing engine. |
 | **NITOR Hospital — Nursing Department Software** | Workforce scheduling, administrative operations, and clinical workflow management for the National Institute of Traumatology & Orthopaedic Rehabilitation. Extended into a full **Hospital Management System** covering end-to-end clinical and administrative workflows. |
 | **Pharmacy & Canteen Management System** | Real-time inventory and sales tracking for institutional pharmacy/canteen operations. |
@@ -97,7 +97,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 ## 🌐 Enterprise Web & ERP Systems
 
 ### 🏥 Healthcare
-- **National Heart Foundation Hospital & Research Institute — Legacy-to-Web Migration** · *Internal system, in active development* · [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study)
+- **National Heart Foundation Hospital & Research Institute — Legacy-to-Web Migration** · *Internal system, in active development* · *Case study available on request*
   Migrating the 34-module legacy desktop HMS above (see **Desktop Enterprise Systems**) to a modern ASP.NET Core + React/Next.js stack, module by module — with the legacy system staying live on the same production database throughout, zero downtime and zero tolerance for data loss.
   - **Public-facing:** a no-login notice board with view-tracking and full audit history, and public ticketing/helpdesk with QR-verifiable status lookup.
   - **Staff portal & dashboard:** rebuilt from a generic template into a real portal with live OPD/IPD/CAG/CABG counts and a performance-first, independently-loading dashboard.
@@ -131,7 +131,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
   - A national surgical statistics registry (overall/congenital/valvular procedure tracking by hospital & year).
   - A full academic journal & clinical-guidelines publication archive.
 
-- **Dr. Prodip Portfolio & Smart Prescription System** · [Live](https://drpkb.nhcsbd.org) · [Case Study](https://fringebytetech.com/services/doctor-website-e-prescription#case-study)
+- **Dr. Prodip Portfolio & Smart Prescription System** · [Live](https://prodipkbiswas.com) · [Case Study](https://fringebytetech.com/services/doctor-website-e-prescription#case-study)
   Laravel 13 platform for a pediatric cardiac surgery practice, pairing a public doctor-portfolio site with a full e-prescription clinic-management backend.
   - **Patient flow:** patient registry with guardian-phone/name+DOB duplicate detection, and a daily-reset Visit/Token queue with POS-style receipt printing.
   - **Prescription canvas:** reusable clinical-term dictionaries, saved presets, searchable medicine/dosage pickers, and Plain-Paper/Letterhead-Pad print modes, with QR-code-verifiable digital prescriptions and a public no-login verification page.
@@ -183,9 +183,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
   Corporate portal for a construction management, engineering design, and strategic supply firm.
 - **Real Estate Management System** · [Live Demo](https://hchousingltd.com)
 
-### 🏨 Hospitality & IT Services
-- **Hotel Grand Safeer** · [Live](https://hotelgrandsafeer.com)
-  Booking platform for a luxury hotel in Jamalpur, Bangladesh.
+### 💻 IT Services
 - **Glory IT Solutions** · [Live](https://gloryitsolutions.com)
   Portal for a global IT solutions, DevOps, and cloud infrastructure consultancy (Bangladesh & USA).
 
