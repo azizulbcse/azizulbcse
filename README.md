@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available%20for%20Freelance%20%2F%20Contract%20Work-brightgreen?style=for-the-badge" />
   <a href="https://fringebytetech.com"><img src="https://img.shields.io/badge/Website-fringebytetech.com-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://fringebytetech.com/services"><img src="https://img.shields.io/badge/Case%20Studies-View%20Live%20Work-7C3AED?style=for-the-badge" /></a>
+  <a href="https://fringebytetech.com/portfolio"><img src="https://img.shields.io/badge/Portfolio-View%20Live%20Work-7C3AED?style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -46,8 +46,8 @@ Designed, engineered and run by me as a production showcase of how I build for c
 - **SEO-first:** JSON-LD structured data (Organization, Service, FAQ, Breadcrumb), XML sitemap, canonical-host redirects, Google Search Console and Google Business Profile integration
 - **Fast:** WebP images with real dimensions (no layout shift), self-hosted fonts, motion that respects reduced-motion settings
 - **Secure:** HSTS and security headers, and a spam-hardened contact form (honeypot, signed time-trap, link and disposable-email checks, per-IP and per-sender rate limits)
-- **Tested:** 138 automated feature tests guarding every release
-- **Real proof:** [live case studies](https://fringebytetech.com/services) for every client project below, with privacy-blurred screenshots and real outcomes
+- **Tested:** 140+ automated feature tests guarding every release
+- **Real proof:** a [portfolio](https://fringebytetech.com/portfolio) and [live case studies](https://fringebytetech.com/services) for every client project below, with privacy-blurred screenshots and real outcomes
 
 ---
 
@@ -216,7 +216,7 @@ I don't just build features — I build systems that are **Reliable · Maintaina
 
 I'm interested in challenging software projects involving Enterprise Software, ERP Systems, Healthcare/HIMS, Financial Applications & Microfinance, Inventory & Supply Chain, Institutional Software, and Business Automation.
 
-- 🌐 **Company:** [FringeByte Technologies](https://fringebytetech.com) — see case studies and request a demo
+- 🌐 **Company:** [FringeByte Technologies](https://fringebytetech.com) — see the [portfolio](https://fringebytetech.com/portfolio) and request a demo
 - 📧 **Email:** [azizulbcse@gmail.com](mailto:azizulbcse@gmail.com)
 - 💼 **LinkedIn:** [Md. Azizul Haque Sohel](https://www.linkedin.com/in/azizulhaquesohel/)
 - 📱 **WhatsApp:** [+880 1728-226580](https://wa.me/8801728226580)
