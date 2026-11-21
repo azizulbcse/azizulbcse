@@ -16,6 +16,12 @@ more than a simple website — enterprise ERPs, HIMS, financial platforms, and b
 <p align="center"><i>Turning complex business processes into reliable software systems.</i></p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Experience-10%2B%20Years-06B6D4?style=flat-square&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Production%20Systems-15%2B%20Delivered-7C3AED?style=flat-square&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Domains-Healthcare%20%C2%B7%20Finance%20%C2%B7%20Manufacturing%20%C2%B7%20Retail-ad0f28?style=flat-square&labelColor=1a1a1a" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
   <img src="https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
@@ -87,7 +93,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 
 | Project | Description |
 |---|---|
-| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. *Case study available on request* · *see "Healthcare" below for the ongoing web migration of this same system* |
+| **NHFH&RI — 34-Module Hospital Management System** | Core developer since 2014 on a 34-module in-house HMS (Accounts/Billing, Diagnostics, HR/Payroll, Inventory, Patient Management, Security, Surgery, and more) running live across 2 hospital branches — personally built and maintain the majority of these modules. [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study) · *see "Healthcare" below for the ongoing web migration of this same system* |
 | **University of Dhaka — Electric Billing System** | Automated utility consumption tracking, custom tariff calculation, and a multi-department billing engine. |
 | **NITOR Hospital — Nursing Department Software** | Workforce scheduling, administrative operations, and clinical workflow management for the National Institute of Traumatology & Orthopaedic Rehabilitation. Extended into a full **Hospital Management System** covering end-to-end clinical and administrative workflows. |
 | **Pharmacy & Canteen Management System** | Real-time inventory and sales tracking for institutional pharmacy/canteen operations. |
@@ -97,7 +103,7 @@ Designed, engineered and run by me as a production showcase of how I build for c
 ## 🌐 Enterprise Web & ERP Systems
 
 ### 🏥 Healthcare
-- **National Heart Foundation Hospital & Research Institute — Legacy-to-Web Migration** · *Internal system, in active development* · *Case study available on request*
+- **National Heart Foundation Hospital & Research Institute — Legacy-to-Web Migration** · *Internal system, in active development* · [Case Study](https://github.com/azizulbcse/nhfri-hims-case-study)
   Migrating the 34-module legacy desktop HMS above (see **Desktop Enterprise Systems**) to a modern ASP.NET Core + React/Next.js stack, module by module — with the legacy system staying live on the same production database throughout, zero downtime and zero tolerance for data loss.
   - **Public-facing:** a no-login notice board with view-tracking and full audit history, and public ticketing/helpdesk with QR-verifiable status lookup.
   - **Staff portal & dashboard:** rebuilt from a generic template into a real portal with live OPD/IPD/CAG/CABG counts and a performance-first, independently-loading dashboard.
@@ -197,6 +203,17 @@ Business Problem → Requirement Analysis → System Architecture → Database D
 ```
 
 I don't just build features — I build systems that are **Reliable · Maintainable · Secure · Scalable · Business-focused**.
+
+---
+
+## 📈 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=azizulbcse&show_icons=true&hide_border=true&bg_color=0D1117&title_color=06B6D4&icon_color=7C3AED&text_color=C9D1D9&ring_color=06B6D4" alt="Azizul's GitHub stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=azizulbcse&hide_border=true&background=0D1117&stroke=0D1117&ring=06B6D4&fire=7C3AED&currStreakLabel=06B6D4&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Azizul's GitHub streak" height="165" />
+</p>
+
+<p align="center"><sub>Most production code for the projects above lives in private client repositories — see individual entries for live links and case studies.</sub></p>
 
 ---
 
